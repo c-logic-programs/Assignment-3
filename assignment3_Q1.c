@@ -28,12 +28,12 @@ float CalculateBill(int Amount)
 	}
 	else if(Amount > 500 && Amount <= 1500)
 	{
-		fRet = Amount - (Amount/10);
+		fRet = Amount - (Amount * 0.1);
 		printf("between 500 & 1500 \n");
 	}
 	else if(Amount > 1500)
 	{
-		fRet = Amount - (Amount/15);
+		fRet = Amount - (Amount * 0.15);
 		printf("greater than 1500 \n");
 	}
 
