@@ -66,7 +66,7 @@ int main()
 	printf("Enter the Standard\n");
 	scanf("%d",&iStandard);
 
-	iFees = 	SchoolFees(iStandard);
+	iFees = SchoolFees(iStandard);
 	Display(iFees,iStandard);
 	return 0;
 }
